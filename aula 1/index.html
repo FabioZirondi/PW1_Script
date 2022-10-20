@@ -1,23 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FistDialog | SAC Automate</title>
 </head>
+
 <body>
     <header>
 
-    </header>    
+    </header>
     <main>
+        <label for="h">H:</label>
+        <input type="text" id="h">
+        <p></p>
 
+        <label for="h">CA:</label>
+        <input type="text" id="ca">
+        <p></p>
+
+        <label for="h">CO:</label>
+        <input type="text" id="co">
+        <p></p>
+
+        Resposta:<span id="resposta"></span>
+        <p>
+            <button id="pitagoras" onclick="recebePitagoras()">Calcular</button>
+        </p>
     </main>
     <footer>
 
     </footer>
 
 
-    <script type="module" src="./src/index.js"></script>
+    <script src="./src/index.js"></script>
 </body>
+
 </html>
